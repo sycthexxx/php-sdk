@@ -24,7 +24,7 @@ class Uploader
 
     public function upload($path, $file, $params, $withAsyncProcess)
     {
-        $stream = Psr7\stream_for($file);
+        $stream =  Psr7\Utils::streamFor($file);
         $size = $stream->getSize();
         $useBlock = $this->needUseBlock($size);
 
