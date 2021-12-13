@@ -1,10 +1,10 @@
 {
-    "name": "upyun/sdk",
+    "name": "sycthexxx/upyun-php-sdk",
     "description": "UPYUN sdk for php",
     "keywords": ["UPYUN", "sdk"],
     "type": "library",
     "minimum-stability": "stable",
-    "homepage": "https://github.com/upyun/php-sdk/",
+    "homepage": "https://github.com/sycthexxx/php-sdk",
     "license": "MIT",
     "require": {
         "php": ">=5.5.0",
